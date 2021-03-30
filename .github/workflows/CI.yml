@@ -20,10 +20,9 @@ jobs:
       with:
         DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
         DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
-        IMAGE_NAME: "uwhackweeks/template"
-        #MYBINDERORG_TAG: ${{ github.event.ref }} #clutters output log
+        IMAGE_NAME: "uwessds/590-spr21-image"
 
     - name: Report Image Size and Conda Packages
       run: |
         docker images
-        docker run uwhackweeks/template:latest conda list --export
+        docker run uwessds/590-spr21-image:latest conda list --export

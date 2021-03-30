@@ -1,53 +1,15 @@
-name: hackweek
+name: 590spring21
 channels:
   - conda-forge
 dependencies:
-  - bokeh
-  - cartopy
-  - contextily
-  - dask
-  - dask-labextension
-  - datashader
-  - descartes
-  - distributed
-  - fiona
-  - fsspec
-  - gcsfs
-  - gdal
-  - geojson
-  - geopandas
-  - geoviews
-  - h5py
-  - holoviews
-  - hvplot
-  - intake
-  - intake-xarray
-  - intake-stac
-  - ipyleaflet
   - ipywidgets
-  - jupyter-book=0.10.1
-  - jupyterhub-singleuser 
+  - jupyterhub-singleuser
   - jupyter-server-proxy
-  - jupyterlab-git
   - jupyterlab=3
   - jupyter-resource-usage
   - matplotlib
   - nbgitpuller
   - numpy
   - pandas
-  - panel
-  - pillow
-  - pip
-  - pyproj
-  - python=3.8
-  - rasterio
-  - rasterstats
-  - rioxarray
-  - requests
-  - s3fs
-  - scikit-learn
-  - scikit-image
+  - pip=20
   - scipy
-  - seaborn
-  - shapely
-  - zarr
