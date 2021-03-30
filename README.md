@@ -29,13 +29,13 @@ git push
 
 ### Pull your image to run a local JupyterLab session
 ```
-export IMAGE=uwessds/590-Spr21-image
-docker pull uwessds/590-Spr21-image:latest
+export IMAGE=uwessds/590-spr21-image
+docker pull uwessds/590-spr21-image:latest
 docker run -it --name $IMAGE -p 8888:8888 $IMAGE:latest jupyter lab --ip 0.0.0.0
 docker stop $IMAGE
 docker rm $IMAGE
 ```
 
 ### Point to a specific tagged image in JupyterHub config
-(image: uwessds/590-Spr21-image:abhjdh)
+(image: uwessds/590-spr21-image:8192752e54fa)
 https://zero-to-jupyterhub.readthedocs.io/en/latest/reference/reference.html?highlight=profile_list#singleuser-profilelist
