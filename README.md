@@ -15,7 +15,7 @@ build with GitHub Actions simply by pushing to GitHub
 * pull requests trigger image building without pushing to DockerHub
 ```
 git clone https://github.com/UW-ESS-DS/590-Spr21-image
-cd uwgda-image
+cd 590-Spr21-image
 git checkout dev
 # make sure dev branch is up-to-date with master
 git merge master
