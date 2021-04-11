@@ -16,7 +16,7 @@ build with GitHub Actions simply by pushing to GitHub
 ```
 git clone https://github.com/UW-ESS-DS/590-Spr21-image
 cd 590-Spr21-image
-git checkout dev
+#git checkout dev
 # make sure dev branch is up-to-date with master
 git merge master
 # modify environment.yml or other files in binder/
