@@ -3,6 +3,7 @@ channels:
   - conda-forge
 dependencies:
   - ipywidgets
+  - obspy
   - keras
   - jupyterhub-singleuser
   - jupyter-server-proxy
