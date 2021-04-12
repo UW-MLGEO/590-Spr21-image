@@ -10,6 +10,7 @@ dependencies:
   - matplotlib
   - nbgitpuller
   - numpy
+  - obspy
   - pandas
   - pip=20
   - scipy
