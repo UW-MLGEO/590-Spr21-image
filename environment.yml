@@ -2,17 +2,21 @@ name: 590spring21
 channels:
   - conda-forge
 dependencies:
-  - ipywidgets
-  - obspy
-  - keras
-  - jupyterhub-singleuser
-  - jupyter-server-proxy
-  - jupyterlab=3
-  - jupyter-resource-usage
+  - python=3.9
+  - jupyter
+  - earthpy
+  - folium
+  - geopandas
   - matplotlib
-  - nbgitpuller
+  - mongodb
+  - netCDF4
   - numpy
-  - obspy
   - pandas
-  - pip=20
+  - pycrs
+  - pytorch
+  - rasterio
   - scipy
+  - scikit-learn
+  - shapely
+  - xarray
+  - ipywidgets
