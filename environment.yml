@@ -9,6 +9,7 @@ dependencies:
   - geopandas
   - matplotlib
   - mongodb
+  - pymongo
   - netCDF4
   - numpy
   - pandas
