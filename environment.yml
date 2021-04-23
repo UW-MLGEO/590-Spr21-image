@@ -8,11 +8,11 @@ dependencies:
   - folium
   - geopandas
   - matplotlib
+  - pymongo
   - netCDF4
   - numpy
   - pandas
   - pycrs
-  - pytorch
   - rasterio
   - scipy
   - scikit-learn
