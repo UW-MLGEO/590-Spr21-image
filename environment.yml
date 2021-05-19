@@ -18,5 +18,8 @@ dependencies:
   - scipy
   - scikit-learn
   - shapely
+  - torchvision
   - xarray
-  - ipywidgets
+  - nbgitpuller
+  - pip=20
+  - keras
