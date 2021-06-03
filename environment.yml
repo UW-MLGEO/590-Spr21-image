@@ -1,4 +1,4 @@
-name: 590spring21
+name: 590spring21_ds
 channels:
   - conda-forge
 dependencies:
@@ -13,14 +13,10 @@ dependencies:
   - numpy
   - pandas
   - pycrs
-  - pytorch
   - rasterio
   - scipy
   - scikit-learn
   - shapely
-  - torchvision
   - xarray
   - nbgitpuller
   - pip=20
-  - keras
-  - tensorflow
