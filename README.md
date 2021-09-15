@@ -2,7 +2,7 @@
 
 This repository builds a [JupyterHub](https://jupyter.org/hub) environment with JupyterHub [GitHub Actions CI](https://github.com/jupyterhub/repo2docker-action)
 
-[![Action Status](https://github.com/mdenolle/ESS314-Fall21-image/workflows/CI/badge.svg)](https://github.com/mdenolle/ESS314-Fall21-image/actions)
+[![Action Status](https://github.com/UW-geophysics-edu/ESS314-Fall21-image/workflows/CI/badge.svg)](https://github.com/UW-geophysics-edu/ESS314-Fall21-image/actions)
 [![Docker Pulls](https://img.shields.io/docker/pulls/mdenolle/ess314-fall2021-image)](https://hub.docker.com/r/mdenolle/ess314-fall2021-image/tags)
 [![BinderHub](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/mdenolle/ess314-fall2021-image/main?urlpath=lab)  
 
@@ -14,7 +14,7 @@ build with GitHub Actions simply by pushing to GitHub
 
 * pull requests trigger image building without pushing to DockerHub
 ```
-git clone https://github.com/mdenolle/ESS314-Fall21-image
+git clone https://github.com/UW-geophysics-edu/ESS314-Fall21-image
 cd ESS314-Fall21-image
 #git checkout dev
 # make sure dev branch is up-to-date with master
