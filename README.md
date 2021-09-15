@@ -2,11 +2,11 @@
 
 This repository builds a [JupyterHub](https://jupyter.org/hub) environment with JupyterHub [GitHub Actions CI](https://github.com/jupyterhub/repo2docker-action)
 
-[![Action Status](https://github.com/mdenolle/5ESS314-Fall21-image/workflows/CI/badge.svg)](https://github.com/UW-ESS-DS/590-Spr21-image/actions)
-[![Docker Pulls](https://img.shields.io/docker/pulls/mdenolle/ESS314-Fall21-image)](https://hub.docker.com/r/mdenolle/ESS314-Fall21-image/tags)
-[![BinderHub](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/mdenolle/ESS314-Fall21-image/main?urlpath=lab)  
+[![Action Status](https://github.com/mdenolle/ESS314-Fall21-image/workflows/CI/badge.svg)](https://github.com/mdenolle/ESS314-Fall21-image/actions)
+[![Docker Pulls](https://img.shields.io/docker/pulls/mdenolle/ess314-fall2021-image)](https://hub.docker.com/r/mdenolle/ess314-fall2021-image/tags)
+[![BinderHub](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/mdenolle/ess314-fall2021-image/main?urlpath=lab)  
 
-https://hub.docker.com/r/mdenolle/ESS314-Fall21-image/tags
+https://hub.docker.com/r/mdenolle/ess314-fall2021-image/tags
 
 ### How to use:
 
@@ -37,5 +37,5 @@ docker rm $NAME
 ```
 
 ### Point to a specific tagged image in JupyterHub config
-(image: mdenolle/ESS314-Fall21-image:8192752e54fa)
+(image: mdenolle/ess314-fall2021-image:8192752e54fa)
 https://zero-to-jupyterhub.readthedocs.io/en/latest/reference/reference.html?highlight=profile_list#singleuser-profilelist
