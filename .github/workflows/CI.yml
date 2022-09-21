@@ -20,7 +20,7 @@ jobs:
       with:
         DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
         DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
-        IMAGE_NAME: "uwessds/MLGeo-image"
+        IMAGE_NAME: "uwessds/mlgeo-image"
 
     - name: Report Image Size and Conda Packages
       run: |
