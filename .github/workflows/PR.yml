@@ -11,9 +11,9 @@ jobs:
       uses: jupyterhub/repo2docker-action@master
       with:
         NO_PUSH: 'true'
-        IMAGE_NAME: "uwessds/590-spr21-image"
+        IMAGE_NAME: "uwessds/MLGeo-image"
 
     - name: Report Image Size and Conda Packages
       run: |
         docker images
-        docker run uwessds/590-spr21-image conda list --export
+        docker run uwessds/MLGeo-image conda list --export

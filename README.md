@@ -1,4 +1,4 @@
-# UW-ESS-DS 590-Spr21-image JupyterHub Image Builder
+# UW-ESS-DS MLGeo-image JupyterHub Image Builder
 
 This repository builds a [JupyterHub](https://jupyter.org/hub) environment with JupyterHub [GitHub Actions CI](https://github.com/jupyterhub/repo2docker-action)
 
