@@ -37,5 +37,5 @@ docker rm $NAME
 ```
 
 ### Point to a specific tagged image in JupyterHub config
-(image: uwessds/mlgeo-image:8192752e54fa)
+(image: uwessds/mlgeo-image:latest)
 https://zero-to-jupyterhub.readthedocs.io/en/latest/reference/reference.html?highlight=profile_list#singleuser-profilelist
