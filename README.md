@@ -6,7 +6,7 @@ This repository builds a [JupyterHub](https://jupyter.org/hub) environment with 
 [![Docker Pulls](https://img.shields.io/docker/pulls/uwessds/MLGeo-image)](https://hub.docker.com/r/uwessds/MLGeo-image/tags)
 [![BinderHub](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/UW-ESS-DS/MLGeo-image/main?urlpath=lab)  
 
-https://hub.docker.com/r/uwessds/MLGeo-image/tags
+https://hub.docker.com/r/uwessds/mlgeo-image/tags
 
 ### How to use:
 
@@ -14,7 +14,7 @@ build with GitHub Actions simply by pushing to GitHub
 
 * pull requests trigger image building without pushing to DockerHub
 ```
-git clone https://github.com/UW-ESS-DS/MLGeo-image
+git clone https://github.com/UW-ESS-DS/mlgeo-image
 cd MLGeo-image
 #git checkout dev
 # make sure dev branch is up-to-date with master
@@ -37,5 +37,5 @@ docker rm $NAME
 ```
 
 ### Point to a specific tagged image in JupyterHub config
-(image: uwessds/MLGeo-image:8192752e54fa)
+(image: uwessds/mlgeo-image:8192752e54fa)
 https://zero-to-jupyterhub.readthedocs.io/en/latest/reference/reference.html?highlight=profile_list#singleuser-profilelist
