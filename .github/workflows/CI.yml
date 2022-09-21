@@ -25,4 +25,4 @@ jobs:
     - name: Report Image Size and Conda Packages
       run: |
         docker images
-        docker run uwessds/MLGeo-image:latest conda list --export
+        docker run uwessds/mlgeo-image:latest conda list --export
