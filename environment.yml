@@ -1,4 +1,4 @@
-name: 590spring21_ds
+name: mlgeo_sk
 channels:
   - conda-forge
 dependencies:
@@ -20,3 +20,4 @@ dependencies:
   - xarray
   - nbgitpuller
   - pip=20
+  - obspy
