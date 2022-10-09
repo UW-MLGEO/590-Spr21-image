@@ -12,7 +12,6 @@ dependencies:
   - netCDF4
   - numpy
   - pandas
-  - pycrs
   - rasterio
   - scipy
   - scikit-learn
