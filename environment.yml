@@ -5,7 +5,7 @@ dependencies:
   - python=3.9
   - jupyter
   - earthpy
-  - folium
+  - plotly
   - geopandas
   - matplotlib
   - pymongo
