@@ -17,5 +17,4 @@ dependencies:
   - shapely
   - xarray
   - nbgitpuller
-  - pip
-  - obspy
+  - pip=20
