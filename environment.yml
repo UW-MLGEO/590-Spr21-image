@@ -2,8 +2,8 @@ name: mlgeo_sk
 channels:
   - conda-forge
 dependencies:
-  - python=3.9
-  - jupyter
+  - python=3.10
+  - jupyterlab
   - pyarrow
   - plotly
   - geopandas
