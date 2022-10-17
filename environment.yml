@@ -18,4 +18,5 @@ dependencies:
   - netcdf4
   - zarr
   - nbgitpuller
+  - wget
   - pip=20
