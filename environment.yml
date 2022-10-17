@@ -14,5 +14,8 @@ dependencies:
   - scikit-learn
   - shapely
   - xarray
+  - h5py
+  - netcdf4
+  - zarr
   - nbgitpuller
   - pip=20
