@@ -22,4 +22,5 @@ dependencies:
   - folium
   - geopandas
   - pycrs
+  - pooch
   - pip=20
