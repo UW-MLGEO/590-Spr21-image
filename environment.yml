@@ -9,6 +9,7 @@ dependencies:
   - geopandas
   - matplotlib
   - numpy
+  - scipy
   - pandas
   - rasterio
   - scikit-learn
