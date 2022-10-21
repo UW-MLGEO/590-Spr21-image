@@ -24,4 +24,5 @@ dependencies:
   - geopandas
   - pycrs
   - pooch
+  - tsftesh
   - pip=20
