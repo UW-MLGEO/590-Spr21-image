@@ -24,5 +24,6 @@ dependencies:
   - geopandas
   - pycrs
   - pooch
+  - obspy
   - tsfresh
   - pip=20
