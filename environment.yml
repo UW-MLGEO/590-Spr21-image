@@ -25,5 +25,6 @@ dependencies:
   - pycrs
   - pooch
   - obspy
+  - seaborn
   - tsfresh
   - pip=20
