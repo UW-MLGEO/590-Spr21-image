@@ -29,5 +29,5 @@ dependencies:
   - tsfresh
   - auto-sklearn
   - torch
-  - torch-vision
+  - torchvision
   - pip=20
