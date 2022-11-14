@@ -27,4 +27,5 @@ dependencies:
   - obspy
   - seaborn
   - tsfresh
+  - auto-sklearn
   - pip=20
