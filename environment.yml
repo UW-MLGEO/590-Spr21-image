@@ -28,4 +28,6 @@ dependencies:
   - seaborn
   - tsfresh
   - auto-sklearn
+  - torch
+  - torch-vision
   - pip=20
