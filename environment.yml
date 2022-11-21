@@ -28,5 +28,4 @@ dependencies:
   - seaborn
   - pytorch
   - torchvision
-  - torchaudio
   - pip=20
