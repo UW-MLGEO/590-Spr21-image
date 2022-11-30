@@ -28,4 +28,5 @@ dependencies:
   - seaborn
   - pytorch
   - torchvision
+  - keras
   - pip=20
