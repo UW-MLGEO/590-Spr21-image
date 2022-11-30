@@ -30,3 +30,4 @@ dependencies:
   - torchvision
   - keras
   - pip=20
+  - tensorflow
