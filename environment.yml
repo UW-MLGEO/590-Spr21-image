@@ -28,4 +28,5 @@ dependencies:
   - seaborn
   - pytorch
   - torchvision
+  - torchinfo
   - pip=20
