@@ -1,22 +1,19 @@
-name: 590spring21_ds
+name: mlgeo
 channels:
   - conda-forge
 dependencies:
-  - python=3.9
-  - jupyter
-  - earthpy
-  - folium
-  - geopandas
+  - python=3.11
+  - jupyterlab
+  - pyarrow
   - matplotlib
-  - pymongo
-  - netCDF4
   - numpy
-  - pandas
-  - pycrs
-  - rasterio
   - scipy
+  - pandas
   - scikit-learn
-  - shapely
-  - xarray
   - nbgitpuller
+  - wget
+  - pooch
+  - pytorch
+  - torchvision
+  - torchinfo
   - pip=20

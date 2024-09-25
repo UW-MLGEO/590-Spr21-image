@@ -1,12 +1,12 @@
-# UW-ESS-DS 590-Spr21-image JupyterHub Image Builder
+# UW-MLGEO MLGeo-image JupyterHub Image Builder
 
 This repository builds a [JupyterHub](https://jupyter.org/hub) environment with JupyterHub [GitHub Actions CI](https://github.com/jupyterhub/repo2docker-action)
 
-[![Action Status](https://github.com/UW-ESS-DS/590-Spr21-image/workflows/CI/badge.svg)](https://github.com/UW-ESS-DS/590-Spr21-image/actions)
-[![Docker Pulls](https://img.shields.io/docker/pulls/uwessds/590-spr21-image)](https://hub.docker.com/r/uwessds/590-spr21-image/tags)
-[![BinderHub](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/UW-ESS-DS/590-Spr21-image/main?urlpath=lab)  
+[![Action Status](https://github.com/UW-MLGEO/MLGeo-image/workflows/CI/badge.svg)](https://github.com/UW-MLGEO/MLGeo-image/actions)
+[![Docker Pulls](https://img.shields.io/docker/pulls/uwessds/mlgeo-image)](https://hub.docker.com/r/uwessds/mlgeo-image/tags)
+[![BinderHub](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/UW-MLGEO/MLGeo-image/main?urlpath=lab)  
 
-https://hub.docker.com/r/uwessds/590-spr21-image/tags
+https://hub.docker.com/r/uwessds/mlgeo-image/tags
 
 ### How to use:
 
@@ -14,8 +14,8 @@ build with GitHub Actions simply by pushing to GitHub
 
 * pull requests trigger image building without pushing to DockerHub
 ```
-git clone https://github.com/UW-ESS-DS/590-Spr21-image
-cd 590-Spr21-image
+git clone https://github.com/UW-MLGEO/mlgeo-image
+cd MLGeo-image
 #git checkout dev
 # make sure dev branch is up-to-date with master
 git merge master
@@ -29,7 +29,7 @@ git push
 
 ### Pull your image to run a local JupyterLab session
 ```
-export IMAGE=uwessds/590-spr21-image:latest
+export IMAGE=uwessds/mlgeo-image:latest
 export NAME=ESS590
 docker run -it --name $NAME -p 8888:8888 $IMAGE jupyter lab --ip 0.0.0.0
 docker stop $NAME
@@ -37,5 +37,5 @@ docker rm $NAME
 ```
 
 ### Point to a specific tagged image in JupyterHub config
-(image: uwessds/590-spr21-image:8192752e54fa)
+(image: uwessds/mlgeo-image:latest)
 https://zero-to-jupyterhub.readthedocs.io/en/latest/reference/reference.html?highlight=profile_list#singleuser-profilelist
