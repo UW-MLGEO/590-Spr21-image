@@ -1,10 +1,10 @@
-# UW-ESS-DS MLGeo-image JupyterHub Image Builder
+# UW-MLGEO MLGeo-image JupyterHub Image Builder
 
 This repository builds a [JupyterHub](https://jupyter.org/hub) environment with JupyterHub [GitHub Actions CI](https://github.com/jupyterhub/repo2docker-action)
 
 [![Action Status](https://github.com/UW-MLGEO/MLGeo-image/workflows/CI/badge.svg)](https://github.com/UW-MLGEO/MLGeo-image/actions)
 [![Docker Pulls](https://img.shields.io/docker/pulls/uwessds/mlgeo-image)](https://hub.docker.com/r/uwessds/mlgeo-image/tags)
-[![BinderHub](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/UW-ESS-DS/MLGeo-image/main?urlpath=lab)  
+[![BinderHub](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/UW-MLGEO/MLGeo-image/main?urlpath=lab)  
 
 https://hub.docker.com/r/uwessds/mlgeo-image/tags
 
