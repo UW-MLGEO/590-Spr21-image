@@ -14,7 +14,7 @@ build with GitHub Actions simply by pushing to GitHub
 
 * pull requests trigger image building without pushing to DockerHub
 ```
-git clone https://github.com/UW-ESS-DS/mlgeo-image
+git clone https://github.com/UW-MLGEO/mlgeo-image
 cd MLGeo-image
 #git checkout dev
 # make sure dev branch is up-to-date with master
