@@ -1,8 +1,8 @@
-name: mlgeo_sk
+name: mlgeo
 channels:
   - conda-forge
 dependencies:
-  - python=3.8
+  - python=3.11
   - jupyterlab
   - pyarrow
   - matplotlib
