@@ -20,9 +20,9 @@ jobs:
       with:
         DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
         DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
-        IMAGE_NAME: uwessds/mlgeo-image
+        IMAGE_NAME: uwmlgeo/mlgeo-image
 
     - name: Report Image Size and Conda Packages
       run: |
         docker images
-        docker run uwessds/mlgeo-image:latest conda list --export
+        docker run uwmlgeo/mlgeo-image:latest conda list --export

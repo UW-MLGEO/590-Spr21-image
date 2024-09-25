@@ -11,9 +11,9 @@ jobs:
       uses: jupyterhub/repo2docker-action@master
       with:
         NO_PUSH: 'true'
-        IMAGE_NAME: "uwessds/mlgeo-image"
+        IMAGE_NAME: "uwmlgeo/mlgeo-image"
 
     - name: Report Image Size and Conda Packages
       run: |
         docker images
-        docker run uwessds/mlgeo-image conda list --export
+        docker run uwmlgeo/mlgeo-image conda list --export

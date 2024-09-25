@@ -3,10 +3,10 @@
 This repository builds a [JupyterHub](https://jupyter.org/hub) environment with JupyterHub [GitHub Actions CI](https://github.com/jupyterhub/repo2docker-action)
 
 [![Action Status](https://github.com/UW-MLGEO/MLGeo-image/workflows/CI/badge.svg)](https://github.com/UW-MLGEO/MLGeo-image/actions)
-[![Docker Pulls](https://img.shields.io/docker/pulls/uwessds/mlgeo-image)](https://hub.docker.com/r/uwessds/mlgeo-image/tags)
+[![Docker Pulls](https://img.shields.io/docker/pulls/uwmlgeo/mlgeo-image)](https://hub.docker.com/r/uwmlgeo/mlgeo-image/tags)
 [![BinderHub](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/UW-MLGEO/MLGeo-image/main?urlpath=lab)  
 
-https://hub.docker.com/r/uwessds/mlgeo-image/tags
+https://hub.docker.com/r/uwmlgeo/mlgeo-image/tags
 
 ### How to use:
 
@@ -29,7 +29,7 @@ git push
 
 ### Pull your image to run a local JupyterLab session
 ```
-export IMAGE=uwessds/mlgeo-image:latest
+export IMAGE=uwmlgeo/mlgeo-image:latest
 export NAME=ESS590
 docker run -it --name $NAME -p 8888:8888 $IMAGE jupyter lab --ip 0.0.0.0
 docker stop $NAME
@@ -37,5 +37,5 @@ docker rm $NAME
 ```
 
 ### Point to a specific tagged image in JupyterHub config
-(image: uwessds/mlgeo-image:latest)
+(image: uwmlgeo/mlgeo-image:latest)
 https://zero-to-jupyterhub.readthedocs.io/en/latest/reference/reference.html?highlight=profile_list#singleuser-profilelist
